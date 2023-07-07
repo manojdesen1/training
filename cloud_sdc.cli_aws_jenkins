@@ -15,6 +15,8 @@ sudo su - jenkins
 sudo apt-get install awscli=2.2.10-1ubuntu1
 10.authenticate the ecr with the document https://docs.aws.amazon.com/AmazonECR/latest/userguide/Registries.html
 
+#https://www.thegeekstuff.com/2016/04/aws-ec2-cli-examples/ ---cli commands 
+
 
 11.###Install kubectl in ubuntu####
 ----------------------------------
