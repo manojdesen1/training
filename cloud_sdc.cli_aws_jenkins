@@ -1,0 +1,25 @@
+sudo vi /etc/sudoers
+    jenkins ALL=(ALL) NOPASSWD: ALL
+sudo su - jenkins
+1) sudo apt-get install apt-transport-https ca-certificates gnupg
+2) echo "deb https://awscli.amazonaws.com/debian stable main" | sudo tee /etc/apt/sources.list.d/aws.list
+3) curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+4.unzip awscliv2.zip
+5.sudo ./aws/install
+6.sudo apt-get update
+7.sudo apt-get install awscli
+#check whelthe the cli for java engine is operand refer cloud.sdk.cli.gcp
+8.aws configure
+9.sudo apt-get update
+sudo apt-get install awscli=2.2.10-1ubuntu1
+10.authenticate the ecr with the document https://docs.aws.amazon.com/AmazonECR/latest/userguide/Registries.html
+
+
+11.###Install kubectl in ubuntu####
+----------------------------------
+sudo apt-get install kubectl
+
+sudo chown -R
+jenkins:jenkins /var/lib/jenkins
+
+sudo chmod 666 /var/run/docker.sock
